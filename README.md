@@ -11,6 +11,11 @@ When looking at the outcomes from the two years, the return in 2017 is far great
     Cells(4 + i, 1).Value = tickers(i)
     Cells(4 + i, 2).Value = tickerVolumes(i)
     Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
+  
+This above is the code that was used to capture all of the data at the end, following that, a table was formated. This code was already included on the file that we downloaded from the instruction sheet. After that, the program was run for 2017 and 2018 with the following output messages.
+<img width="262" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/111014191/186491185-7f4c7ff3-d2a4-4e08-bb35-e773b815482d.png">
+<img width="262" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/111014191/186491200-fd1f6c3a-7627-4541-91a1-6cd699e3ea9a.png">
+
 ## Summary
 ### What are the advantages or disadvantages of refactoring code?
 ### How do these pros and cons apply to refactoring the original VBA script?
